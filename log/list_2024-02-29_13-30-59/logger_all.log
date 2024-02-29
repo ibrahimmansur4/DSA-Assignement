@@ -1,0 +1,40 @@
+[6.050s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ibrahim/DSA-Assignement']
+[6.050s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ibrahim/DSA-Assignement'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc019ecdc00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fc01a039bd0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fc01a039bd0>>)
+[6.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.265s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ibrahim/DSA-Assignement'
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extensions ['ignore', 'ignore_ament_install']
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'ignore'
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'ignore_ament_install'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extensions ['colcon_pkg']
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'colcon_pkg'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extensions ['colcon_meta']
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'colcon_meta'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extensions ['ros']
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'ros'
+[6.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extensions ['cmake', 'python']
+[6.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'cmake'
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'python'
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extensions ['python_setup_py']
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement) by extension 'python_setup_py'
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extensions ['ignore', 'ignore_ament_install']
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'ignore'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'ignore_ament_install'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extensions ['colcon_pkg']
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'colcon_pkg'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extensions ['colcon_meta']
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'colcon_meta'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extensions ['ros']
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'ros'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extensions ['cmake', 'python']
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'cmake'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'python'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extensions ['python_setup_py']
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/DSA Assignement) by extension 'python_setup_py'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/log) by extensions ['ignore', 'ignore_ament_install']
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/log) by extension 'ignore'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/DSA-Assignement/log) ignored
+[6.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

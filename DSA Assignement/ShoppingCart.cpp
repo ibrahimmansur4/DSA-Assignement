@@ -28,6 +28,11 @@ public:
     }
 
     void addItem(int itemID, const string& itemName, double price, int quantity) {
+        if (price < 0 || quantity < 0) {
+            cout << "Error: Negative price or quantity is not allowed." << endl;
+            return;
+        }
+
         CartItem* newItem = new CartItem;
         newItem->itemID = itemID;
         newItem->itemName = itemName;
